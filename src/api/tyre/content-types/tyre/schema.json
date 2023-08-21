@@ -69,6 +69,16 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::tyre-width.tyre-width"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
