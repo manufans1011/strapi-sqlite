@@ -71,14 +71,19 @@
       "target": "api::tyre-width.tyre-width"
     },
     "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "price": {
+      "type": "integer",
+      "default": 0
     }
   }
 }
